@@ -1,20 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	background-color: #ff8c1e;
+	color: dodgerblue;
+}
 p{
-	color: blue;
-	font-size: 80px;
-	font-family: 'Srisakdi', cursive;
+	font-size: 36px;
 }
 h1{
 	text-align: center;
 }
+.content{
+width: 60%;
+margin:0 auto;
+padding: 50px;
+background-color:#f0f0f0;
+box-shadow: 0 0 20px 0 rgba(0,0,0,4)
+}
+
 img{
 	display: block;
 	margin: 0 auto;
+	width:100%;
+	max-width: 100%;
 }
 a{
 	font-size: 18px;
 	text-transform: none;
 	text-align: center;
-	display: block;
+	display: inline-block;
+	margin:0 10px;
 	color: gold;
-
+}
+table{
+	font-size: 18px;
 }
